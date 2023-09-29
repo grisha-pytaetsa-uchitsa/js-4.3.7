@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <form class="search-form">
+        <input type="text" class="search-form__input" />
+        <ul class="search-form__list">
+          <li class="search-form__item">
+            <span class="search-form__text">результат запроса</span>
+          </li>
+        </ul>
+      </form>
+      <div class="card-container">
+        <template class="card-template">
+          <div class="card">
+            <div class="card__text-container">
+              <span class="card__text card__text--name">название репо</span>
+              <span class="card__text card__text--owner">создатель репо</span>
+              <span class="card__text card__text--stars"
+                >кол-во звезд репо</span
+              >
+            </div>
+            <button class="close-button"></button>
+          </div>
+        </template>
+      </div>
+    </main>
+    <script src="awd.js"></script>
+  </body>
+</html>
